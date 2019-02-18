@@ -1,3 +1,131 @@
 * {
-    background-color: red
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+nav#main-nav {
+    width: 100%;
+    position: relative;
+    text-align: right;
+    top: 0;
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+nav#main-nav > ul {
+    float: right;
+}
+
+nav#main-nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+nav#main-nav > ul > li.menu-item {
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+#main-nav > ul > li > a {
+    text-decoration: none;
+}
+
+#main-nav > ul > li > a:hover {
+    color: navy;
+}
+
+#main-header {
+    background-image: url(../zdj/img/manu-schwendener-39728-unsplash.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#main-header .main-header-content {
+    text-align: center;
+    padding: 50px;
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 3em;
+}
+
+#main-header .main-header-content h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+    width: 100%;
+}
+
+#about > h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#about > h2 > span {
+    color: navy;
+    font-weight: 700
+}
+
+#about > figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+#about > figure > img {
+    max-width: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#about > article {
+    color: black;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    width: 30%;
+    float: left;
+    padding-right: 100px;
+}
+
+#skills {
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+}
+
+#skills > h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+#skills > h2 > span {
+    color: navy;
+    font-weight: 700
 }
